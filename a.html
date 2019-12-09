@@ -1,0 +1,25 @@
+<script>
+function check(){
+var name=document.getElementById("name").value;
+var pass=document.getElementById("pass").value;
+if(name=="a" && pass=="a"){
+alert("登入成功");
+window.document.f.action="b.html";
+window.document.f.submit();
+}else{
+alert("用户名或密码错误");
+}
+}
+</script>
+<center>
+<form name="f" action="">
+user :<INPUT TYPE="text" NAME="" id="name"><br>
+pass :<INPUT TYPE="password" NAME="" id="pass"><br>
+<INPUT TYPE="button" value="登入" onclick="check()"><INPUT TYPE="reset" value="重置">
+</form>
+</center>
+
+
+<button onclick="location.href = 'https://www.baidu.com/'">
+点我去度量~
+	</button>
